@@ -1,0 +1,103 @@
+.climaContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.searchContainer {
+    width: 350px;
+    margin-top: 50px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: rgba(68, 67, 67, 0.442);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.inputCity {
+    width: 320px;
+    font-size: 16px;
+    background-color: rgba(68, 67, 67, 0.442);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.searchButton {
+    background-color: transparent;
+    padding: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.searchButton:hover {
+    transform: scale(1.1);
+}
+
+.statusContainer {
+    width: 350px;
+    background-color: rgba(68, 67, 67, 0.442);
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.cityName {
+    font-size: 25px;
+}
+
+.temperature {
+    font-size: 60px;
+    padding: 10px;
+}
+
+.statusForecast {
+    width: 380px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.tempContainerForecast {
+    display: flex;
+    align-items: center;
+}
+
+.listContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+}
+
+.listForecast {
+    width: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgba(68, 67, 67, 0.442);
+    border-radius: 15px;
+    padding: 13.5px;
+}
+
+.temperatureForecast {
+    font-size: 25px;
+}
+
